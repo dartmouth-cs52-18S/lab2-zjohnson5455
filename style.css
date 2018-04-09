@@ -69,7 +69,7 @@ body {
   margin: 20px;
 }
 
-.questionAnswer:hover {
+.questionAnswer:not(.selected):hover {
   border: 1px solid black;
 }
 .notSelected {
